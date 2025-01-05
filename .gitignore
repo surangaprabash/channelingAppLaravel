@@ -1,13 +1,19 @@
+# Laravel-specific folders
+/vendor
 /node_modules
-/public/build
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
+/storage/framework/*
+/storage/logs/*
+
+# Environment and config files
 .env
-.env.backup
-.env.production
+.env.*
+
+# Cache files
 .phpunit.result.cache
+<<<<<<< HEAD
 Homestead.json
 Homestead.yaml
 auth.json
@@ -21,3 +27,28 @@ yarn-error.log
 *.css linguist-detectable=false
 *.js linguist-detectable=false
 *.php linguist-detectable=true
+=======
+.phpunit.cache
+/.php-cs-fixer.cache
+
+# IDE and Editor Specific Files
+.idea
+.vscode
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Laravel Mix / Webpack build files
+/public/css/*.map
+/public/js/*.map
+/public/mix-manifest.json
+
+# SASS/SCSS cache
+.sass-cache
+
+# Composer and Node dependencies
+composer.lock
+package-lock.json
+yarn.lock
+>>>>>>> 20ebc9aa03ae1bcc91ead1997c38a9e67551c356
