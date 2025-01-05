@@ -2,7 +2,6 @@
 /vendor
 /node_modules
 /public/hot
-/public/build
 /public/storage
 /storage/*.key
 /storage/framework/*
@@ -11,8 +10,6 @@
 # Environment and config files
 .env
 .env.*
-.env.backup
-.env.production
 
 # Cache files
 .phpunit.result.cache
@@ -20,9 +17,8 @@
 /.php-cs-fixer.cache
 
 # IDE and Editor Specific Files
-/.idea
-/.vscode
-/.fleet
+.idea
+.vscode
 
 # OS Generated Files
 .DS_Store
@@ -40,10 +36,3 @@ Thumbs.db
 composer.lock
 package-lock.json
 yarn.lock
-npm-debug.log
-yarn-error.log
-
-# Homestead and Authentication
-Homestead.json
-Homestead.yaml
-auth.json
