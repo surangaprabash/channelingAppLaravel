@@ -1,1 +1,25 @@
+# Existing entries to ignore unnecessary files
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# GitHub Linguist-specific lines (optional, for controlling language detection on GitHub)
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+*.php linguist-detectable=true
 
